@@ -25,10 +25,8 @@
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
 
     <div class="all">
-        <div class="left">
-        </div>
-        <div class="right">
-        </div>
+        <a href="https://mp.weixin.qq.com/" class="left">小程序</a>
+        <div class="right">h5</div>
     </div>
   </div>
 </template>
@@ -62,12 +60,11 @@ export default {
     },
     clickHandle (ev) {
       console.log('clickHandle:', ev)
-      // throw {message: 'custom test'}
     }
   },
 
   created () {
-    // let app = getApp()
+    let app = getApp()
   }
 }
 </script>
@@ -94,6 +91,10 @@ export default {
   margin-top: 150px;
 }
 
+.counter {
+  text-align: center;
+  color: red;
+}
 .form-control {
   display: block;
   padding: 0 12px;
@@ -102,8 +103,8 @@ export default {
 }
 .all{
   width:7.5rem;
-  height:1rem;
-  background-color:blue;
+  border: 1px solid #ccc;
+  line-height:1rem;
 }
 .all:after{
   display:block;
@@ -114,13 +115,13 @@ export default {
   float:left;
   width:3rem;
   height:1rem;
-  background-color:red;
+  text-align: center;
 }
 
 .right{
   float:left;
   width:4.5rem;
   height:1rem;
-  background-color:green;
+  text-align: center;
 }
 </style>
