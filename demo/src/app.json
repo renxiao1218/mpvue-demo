@@ -26,6 +26,11 @@
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
+    },{
+      "text": "计数",
+      "pagePath": "pages/counter/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
     }],
 
     "items": [{
@@ -36,6 +41,11 @@
     }, {
       "name": "订单",
       "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    },{
+      "name": "计数",
+      "pagePath": "pages/counter/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],

@@ -25,7 +25,7 @@
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
 
     <div class="all">
-        <a href="https://mp.weixin.qq.com/" class="left">小程序</a>
+        <div class="left">小程序</div>
         <div class="right">h5</div>
     </div>
   </div>
@@ -51,7 +51,7 @@ export default {
 
   methods: {
     bindViewTap () {
-      const url = '../logs/main'
+      const url = '../counter/main'
       if (mpvuePlatform === 'wx') {
         mpvue.switchTab({ url })
       } else {
